@@ -1,3 +1,4 @@
+package yoon.hw;
 
 
 import java.io.*;
@@ -16,23 +17,20 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
+        int count = 0;
 
-        int[][] arr = new int[N][M];
-        int[] result = new int[N];
-
-        for (int i = 0; i < N; i++) {
-            st = new StringTokenizer(br.readLine());
-            for (int j = 0; j < M; j++) {
-                arr[i][j] = Integer.parseInt(st.nextToken());
+        while (N != 1) {
+            if (N % K == 0) {
+                N = N / K;
             }
-            Arrays.sort(arr[i]);
+            else {
+                N -= 1;
+            }
+            count++;
 
-            result[i] = arr[i][0];
         }
-
-        Arrays.sort(result);
-        System.out.println(result[N-1]);
+        System.out.println(count);
 
 
 

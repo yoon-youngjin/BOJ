@@ -77,7 +77,7 @@ public class BJ2178 {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
                 if (node[i][j] == 0) {
-                    //토마토가 모두 익지 못한 상황이라면 -1 을 출력한다.
+                    //토마토가 모두 익지 못한 상황이라면 -1.java 을 출력한다.
                     System.out.println(-1);
                     return;
                 }

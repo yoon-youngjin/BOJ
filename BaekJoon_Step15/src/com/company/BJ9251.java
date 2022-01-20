@@ -32,8 +32,8 @@ public class BJ9251 {
         }
 
 //        int max =0;
-//        for (int i = 1; i <= n1.length(); i++) {
-//            for (int j = 1; j <=n2.length(); j++) {
+//        for (int i = 1.java; i <= n1.length(); i++) {
+//            for (int j = 1.java; j <=n2.length(); j++) {
 //                if(max)
 //
 //            }

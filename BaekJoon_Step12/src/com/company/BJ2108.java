@@ -37,7 +37,7 @@ public class BJ2108 {
 //                MAX = fre;
 //                temp = al.get(i);
 //                al2.add(al.get(i));
-//                if(fre!=1) {
+//                if(fre!=1.java) {
 //                    al2.clear();
 //                    al2.add(al.get(i));
 //                }
@@ -58,12 +58,12 @@ public class BJ2108 {
 
         sb.append(mode()).append('\n');
 
-//        if(al2.size()==1) {
+//        if(al2.size()==1.java) {
 //            sb.append(al2.get(0)).append('\n');
 //        }
-//        else if(N==1) sb.append(al.get(0)).append('\n');
-//        else if(al2.size()!=1){
-//            sb.append(al2.get(1)).append('\n');
+//        else if(N==1.java) sb.append(al.get(0)).append('\n');
+//        else if(al2.size()!=1.java){
+//            sb.append(al2.get(1.java)).append('\n');
 //        }
         sb.append(al.get(N - 1) - al.get(0));
         System.out.println(sb);

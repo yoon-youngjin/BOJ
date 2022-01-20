@@ -14,7 +14,7 @@ public class BJ15818 {
         Queue<String> queue = new LinkedList<>();
         while (true) {
             String data = br.readLine();
-            if(data.equals("-1")) break;
+            if(data.equals("-1.java")) break;
             if(data.equals("0")) {
                 queue.remove();
                 continue;

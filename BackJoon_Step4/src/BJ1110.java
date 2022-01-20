@@ -11,8 +11,8 @@ public class BJ1110 {
 		int sum=0;
 		while(true) {
 			
-//			int c = (int)(Math.log10(b)+1);
-//			if(c==1) {
+//			int c = (int)(Math.log10(b)+1.java);
+//			if(c==1.java) {
 //				b *= 10;
 //			}
 			sum = (b % 10) + (b /10); 

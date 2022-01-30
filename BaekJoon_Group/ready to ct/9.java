@@ -58,13 +58,14 @@ public class Main {
             for (int i = 0; i < dx.length; i++) {
                 nx = x + dx[i];
                 ny = y + dy[i];
-                if (nx < 0 || ny < 0 || nx >= N || ny >= M || map[nx][ny] == 0) {
+                if (nx < 0 || ny < 0 || nx >= N || ny >= M) {
                     continue;
                 } else if(map[nx][ny] == 1){
                     queue.offer(new Point(nx, ny));
-                    map[nx][ny] = map[x][y] + 1;
+                        map[nx][ny] = map[x][y] + 1;
                 }
             }
+            // 방문처리
             if(x != N-1 && y != M-1) {
                 map[x][y] = 0;
             }

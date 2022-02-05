@@ -34,13 +34,11 @@ public class Main {
             arr[i].score = Integer.parseInt(st.nextToken());
         }
 
-        Arrays.sort(arr);
 
+        Arrays.sort(arr);
         for (Student temp : arr) {
             System.out.print(temp.name + " ");
         }
-
-
     }
 
 }

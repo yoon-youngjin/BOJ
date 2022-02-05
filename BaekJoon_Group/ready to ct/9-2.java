@@ -80,7 +80,6 @@ public class Main {
                     queue.offer(new Point(nx, ny));
                     count++;
                 }
-
             }
         }
 

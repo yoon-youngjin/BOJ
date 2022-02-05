@@ -28,7 +28,6 @@ public class Main {
         for (int i = 0; i < N; i++) {
             arr1[i] = Integer.parseInt(st1.nextToken());
             arr2[i] = Integer.parseInt(st2.nextToken());
-
         }
 
         Arrays.sort(arr1);
